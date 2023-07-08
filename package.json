@@ -1,0 +1,23 @@
+{
+  "name": "introduction-to-security",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjbworks/introduction-to-security.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjbworks/introduction-to-security/issues"
+  },
+  "homepage": "https://github.com/sjbworks/introduction-to-security#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
