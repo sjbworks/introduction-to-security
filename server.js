@@ -1,16 +1,16 @@
-const express = require("express")
-const api = require('./routes/api')
-const app = express()
-const port = 3000
+const express = require("express");
+const api = require("./routes/api");
+const app = express();
+const port = 3000;
 
-app.get('/',(req,res,next)=>{
-    res.end("Top Page")
-})
+app.get("/", (req, res, next) => {
+  res.end("Top Page");
+});
 
-app.use(express.static("public"))
+app.use(express.static("public"));
 
-app.use('/api',api)
+app.use("/api", api);
 
-app.listen(port,()=>{
-    console.log(`Server is running on http://localhost:${port}`)
-})
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
+});
